@@ -13,45 +13,4 @@
     border: 2px solid gray;
 }
 
-div {
-    width: 150px;
-    height: 150px;
-    background-color: grey;
-    color: white;
-}
-.div1 {
-    background-color: black;
-}
-.div2 {
-    background-color: black;
-    position: relative;
-    margin-left: 38%;
-}
-.div3 {
-    background-color: black;
-    float: right;
-}
-
-/* **layout1**
-div {
-    width: 130px;
-    height: 130px;
-    background-color: grey;
-    color: white;
-    display: flex;
-}
-.div1 {
-    background-color: black;
-}
-
-.div2 {
-    background-color: black;
-    margin-left: auto;
-    margin-right: 7px;
-}
-.div3 {
-    background-color: black;
-    
-}
-*/
 /* CSS FILE COMMENTS [ INLINE ] */
