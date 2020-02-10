@@ -13,12 +13,15 @@ div {
 }
 .div1 {
     background-color: black;
+    position: relative;
+    float: right;
 }
 .div2 {
     background-color: black;
-    margin-left: 37%;
+    margin-top: 23%;
+    margin-left: 38%;
 }
 .div3 {
     background-color: black;
-    float: right;
+    
 }
