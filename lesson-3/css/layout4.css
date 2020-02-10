@@ -5,9 +5,8 @@
     border: 2px solid gray;
 }
 div {
-    width: 130px;
-    height: 130px;
-    background-color: white;
+    width: 150px;
+    height: 150px;
     color: white;
     display: flex;
 }
@@ -16,11 +15,8 @@ div {
 }
 
 .div2 {
-    background-color: black;
-    margin-left: auto;
-    margin-right: 7px;
-}
-.div3 {
-    background-color: black;
-    
+    background-color: #505050;
+    position: relative;
+    margin-top: 70px;
+    margin-left: -75px;
 }
