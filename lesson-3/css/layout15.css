@@ -1,0 +1,41 @@
+.wrapper {
+    width: 650px;
+    height: 540px;
+    margin: 50px auto 0;
+    border: 2px solid gray;
+}
+div {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1 {
+    width: 280px;
+    height: 280px;
+    background-color: #505050;
+}
+
+.div2 {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    margin-left: 26%;
+    margin-bottom: -20px;
+}
+.div3 {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    align-self: flex-end;
+    margin-bottom: 10%;
+}
+.div4 {
+    width: 280px;
+    height: 280px;
+    background-color: #505050;
+    position: relative;
+    margin-left: 26%;
+    margin-top: -16%;
+}
