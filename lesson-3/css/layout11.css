@@ -1,0 +1,32 @@
+.wrapper {
+    width: 650px;
+    height: 540px;
+    margin: 50px auto 0;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+.div1 {
+    width: 40%;
+    height: 75%;
+    background-color: #505050;
+    color: white;
+}
+.div2 {
+    position: relative;
+    margin-top: -41.6%;
+    margin-left: 10%;
+    width: 30%;
+    height: 50%;
+    background-color: black;
+    color: white;
+}
+.div3 {
+    position: relative;
+    margin-top: -22.6%;
+    margin-left: 17%;
+    width: 135px;
+    height: 135px;
+    background-color: darkgray;
+    color: white;
+}
