@@ -1,0 +1,40 @@
+.wrapper {
+    width: 650px;
+    height: 540px;
+    margin: 50px auto 0;
+    border: 2px solid gray;
+}
+div {
+    width: 150px;
+    height: 150px;
+    color: white;
+    display: flex;
+}
+.div1 {
+    background-color: black;
+}
+
+.div2 {
+    background-color: #505050;
+    position: relative;
+    margin-top: 10%;
+    margin-left: -12%;
+}
+.div3 {
+    position: relative;
+    margin-top: 20%;
+    margin-left: -12%;
+    background-color: black;
+}
+.div4 {
+    position: relative;
+    margin-top: 30%;
+    margin-left: -12%;
+    background-color: #505050;
+}
+.div5 {
+    position: relative;
+    margin-top: 40%;
+    margin-left: -12%;
+    background-color: black;
+}
