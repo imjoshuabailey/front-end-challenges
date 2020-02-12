@@ -6,70 +6,81 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Challenge #4</title>
   <link href="css/main.css" rel="stylesheet">
-  <script>
-    // JAVASCRIPT
-  </script>
+  
 </head>
 <body>
 
   <div class="wrapper">
     <section class="main">
       <!-- ABOUT ME -->
-      <h1>Kitty Meow</h1>
-      <p>Hello,
-        <small>odio aenean</small>
-        sed <strong>adipiscing</strong> diam donec adipiscing. Ultricies tristique nulla aliquet enim tortor at
-        auctor. Sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id semper risus in. Eget
-        duis at tellus at urna condimentum mattis pellentesque.
+      <h1>Joshua Bailey</h1>
+  
+      <p>Greetings, my name is Josh.
+        I am 29 years old and currently work in the automotive industry.
+        <br>
+        I am currently studying to change careers to work in web development.
+        <br>
+        When I am not writing code I enjoy playing and recording music, surfing, and playing with my son.
       </p>
       <!--// ENDS: ABOUT ME -->
   
       <!-- STRENGTHS -->
-      <h2>Strengths:</h2>
+      <h1>Strengths</h1>
       <ul>
-        <li><u>Id semper</u></li>
-        <li>Vitae proin</li>
-        <li>Ac tortor vitae</li>
+        <li>Self Motivated</li>
+        <li>Strong analytical skills</li>
+        <li>Team Oriented</li>
       </ul>
       <!--// ENDS: STRENGTHS -->
   
       <!-- EXPERIENCE -->
       <h2>Experience</h2>
       <ol>
-        <li><em>Odio ut enim</em></li>
-        <li>Eleifend donec</li>
-        <li>Elementum pulvinar</li>
+        <li>Go</li>
+        <li>Ruby on rails</li>
+        <li>Javascript</li>
       </ol>
       <!--// ENDS: EXPERIENCE -->
+      <div id="text-modify"></div>
     </section>
   
-    <aside>
-  
-      <!-- PROFILE PICTURE -->
-      <p><img alt="Kitty Meow Profile Picture" width="300" src="img/cat.jpg"/></p>
-      <!--// ENDS: PROFILE PICTURE -->
-  
-      <!-- CONTACT -->
-      <p>Arci porta non pulvinar <a href="#" class="link" target="_blank">neque</a> laoreet suspendisse interdum
-        consectetur
-        libero. Tristique risus nec feugiat in fermentum posuere urna. Molestie a iaculis at erat pellentesque
-        adipiscing commodo elit at.
+    <aside class="sidebar">
+      <!-- IMAGE -->
+      <p>
+        <img id="catImage" src="img/cat.jpg" width="300" alt="image of a cat">
       </p>
-      <address>
-        15243 Pawes Ave.<br>
-        San Diego, CA 92000
-      </address>
+      <!-- END: IMAGE-->
+      <button id="hideImage" onclick="hideImage()">Hide Image</button>
+      <br>
+      <button id="alert" onclick="thankMessage()">Click Me</button>
+      <!-- CONTACT -->
+      <p>
+        I enjoy making all kinds of different cocktails and collecting different types of alcohol to make new beverages.
+      </p>
+  
       <!--// ENDS: CONTACT -->
   
       <!-- SOCIAL MEDIA -->
-      <div>Sapien et ligula ullamcorper malesuada proin libero. Sed vulputate mi sit amet mauris commodo quis.
-        Sagittis orci a scelerisque purus semper eget duis at tellus.
+      <div>
+        <p><em>Visit one of my social media pages below</em></p>
+        <a href="https://github.com/imjoshuabailey" class="fa fa-github" style="font-size: 40px;" target="blank;"></a>
+        <!--<a href="https://www.facebook.com" class="fa fa-facebook" style="font-size: 25px;" target="blank;"></a>-->
       </div>
       <!--// ENDS: SOCIAL MEDIA -->
+      <br>
+      <address>
+        Written by Josh Bailey &#9400; /
+        Example.com /
+        P.O. Box 564, Disneyland /
+        USA
+      </address>
     </aside>
   </div>
-
 </body>
+  <script type="text/javascript" src="js/main.js">
+  </script>
+  
 </html>
