@@ -8,13 +8,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Challenge #5</title>
   <link href="css/main.css" rel="stylesheet">
-  <script src="js/main.js"></script>
 </head>
 <body>
-
-  <!-- ELEMENT TAG -->
+  <div id="border">
+    <div id="backDrop">
+      <img id="image" src="./img/newImage.jpg">
+      <div id="login">
+        <form onsubmit="loginFail()">
+          <p id="pageName">ACCOUNT LOGIN</p>
+        </br>
+          <input id="userName" type="text" placeholder="User name"><input id="password" type="password" placeholder="Password">
+        </br>
+          <button id="submit" type="submit">SIGN IN</button>
+          
+        </form>
+        <p id="forgot">Forgot <a id="forgotInfo" href="" target="_blank">User name / password?</a></p>
+        <a id="signUp" href="">SIGN UP</a>
+      </div>  
+    </div> 
+  </div>
+ 
   
-  <!--// ENDS: ELEMENT TAG -->
+ 
 
 </body>
+<script src="js/main.js"></script>
 </html>
